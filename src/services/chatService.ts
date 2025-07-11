@@ -1,9 +1,10 @@
 import { Message } from '../types/chat';
 
 const OPENROUTER_API_URL = 'https://openrouter.ai/api/v1/chat/completions';
-'const MODEL = mistralai/devstral-small:free';
-const MODEL = "mistralai/mistral-small-3.1-24b-instruct:free",
+// Remove this broken line:
+// 'const MODEL = mistralai/devstral-small:free';
 
+const MODEL = "mistralai/mistral-small-3.1-24b-instruct:free";
 export class ChatService {
   private apiKey: string;
 
